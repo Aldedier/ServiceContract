@@ -22,7 +22,7 @@ namespace ServiceContract
     [DataContract]
     public class InventarioFault
     {
-        [DataMember]
+        [DataMember]  
         public string Mensaje { get; set; }
 
         public InventarioFault(string mensaje)
