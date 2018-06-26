@@ -19,6 +19,7 @@ namespace ServiceContract
         void AgregarInventario(int codigo, string nombre, int cantidad);
     }
 
+
     [DataContract]
     public class InventarioFault
     {
